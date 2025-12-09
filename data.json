@@ -1,0 +1,20 @@
+{
+  "aplikasi": [
+    { "nama": "Netflix", "harga": "Rp 25.000/bulan", "wa": "Saya ingin pesan Netflix", "gambar": "Netflix.jpg" },
+    { "nama": "Disney+ Hotstar", "harga": "Rp 30.000/bulan", "wa": "Saya ingin pesan Disney+ Hotstar", "gambar": "Disney.jpg" },
+    { "nama": "Viu Premium", "harga": "Rp 10.000/bulan", "wa": "Saya ingin pesan Viu Premium", "gambar": "viu.png" },
+    { "nama": "YouTube Premium", "harga": "Rp 15.000/bulan", "wa": "Saya ingin pesan YouTube Premium", "gambar": "YouTube.png" },
+    { "nama": "Alight Motion Pro", "harga": "Rp 8.000/bulan", "wa": "Saya ingin pesan Alight Motion Pro", "gambar": "am.png" },
+    { "nama": "CapCut Pro", "harga": "Rp 10.000/bulan", "wa": "Saya ingin pesan CapCut Pro", "gambar": "Capcur.png" },
+    { "nama": "Prime Video", "harga": "Rp 20.000/bulan", "wa": "Saya ingin pesan Prime Video", "gambar": "Prime.jpg" },
+    { "nama": "Canva Pro", "harga": "Rp 7.000/bulan", "wa": "Saya ingin pesan Canva Pro", "gambar": "Canva.png" },
+    { "nama": "Vidio Premier", "harga": "Rp 15.000/bulan", "wa": "Saya ingin pesan Vidio Premier", "gambar": "Vidio.jpg" },
+    { "nama": "WeTV", "harga": "Rp 15.000/bulan", "wa": "Saya ingin pesan WeTV Premium", "gambar": "wetv.jpg" }
+  ],
+
+  "layanan": [
+    { "nama": "Desain Logo", "harga": "Mulai Rp 40.000", "wa": "Saya ingin pesan Desain Logo", "gambar": "Website.jpg" },
+    { "nama": "Pembuatan Website", "harga": "Mulai Rp 150.000", "wa": "Saya ingin pesan Pembuatan Website", "gambar": "design.jpg" },
+    { "nama": "Desain Grafis", "harga": "Mulai Rp 65.000", "wa": "Saya ingin pesan Desain Grafis", "gambar": "desain.jpg" }
+  ]
+}

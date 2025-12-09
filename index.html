@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fafioraluxe - Aplikasi Premium Murah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="mode-toggle" onclick="toggleMode()">Mode Gelap/Terang</div>
+
+<header>
+    <h1>Fafioraluxe</h1>
+</header>
+
+<!-- Slider Banner -->
+<div class="slider">
+    <div class="slides">
+        <img src="image/images.jpeg" alt="">
+        <img src="image/nonton.jpg" alt="">
+        <img src="image/design.jpg" alt="">
+    </div>
+</div>
+
+<div class="container">
+
+    <h2 class="section-title">Aplikasi Premium Murah</h2>
+    <div class="card-container" id="aplikasi-list"></div>
+
+    <h2 class="section-title">Layanan Fafioraluxe</h2>
+    <div class="card-container" id="layanan-list"></div>
+
+</div>
+
+<script>
+fetch("data.json")
+    .then(res => res.json())
+    .then(data => {
+
+        const app = document.getElementById("aplikasi-list");
+        const layanan = document.getElementById("layanan-list");
+
+        data.aplikasi.forEach(item => {
+            app.innerHTML += `
+            <div class="card">
+                <img src="${item.gambar}">
+                <h3>${item.nama}</h3>
+                <p class="price">${item.harga}</p>
+                <a href="https://wa.me/6281235055737?text=${encodeURIComponent(item.wa)}" class="btn">
+                    Pesan via WhatsApp
+                </a>
+            </div>`;
+        });
+
+        data.layanan.forEach(item => {
+            layanan.innerHTML += `
+            <div class="card">
+                <img src="${item.gambar}">
+                <h3>${item.nama}</h3>
+                <p class="price">${item.harga}</p>
+                <a href="https://wa.me/6281235055737?text=${encodeURIComponent(item.wa)}" class="btn">
+                    Pesan via WhatsApp
+                </a>
+            </div>`;
+        });
+
+    });
+
+/* Mode Gelap Terang */
+function toggleMode() {
+    document.body.classList.toggle("light");
+}
+</script>
+
+</body>
+</html>
