@@ -6,9 +6,9 @@
     { "nama": "YouTube Premium", "harga": "Rp 15.000/bulan", "wa": "Saya ingin pesan YouTube Premium", "gambar": "youtube.png" },
     { "nama": "Alight Motion Pro", "harga": "Rp 8.000/bulan", "wa": "Saya ingin pesan Alight Motion Pro", "gambar": "AM.png" },
     { "nama": "CapCut Pro", "harga": "Rp 10.000/bulan", "wa": "Saya ingin pesan CapCut Pro", "gambar": "capcut.jpg" },
-    { "nama": "Prime Video", "harga": "Rp 20.000/bulan", "wa": "Saya ingin pesan Prime Video", "gambar": "Prime.png" },
+    { "nama": "Prime Video", "harga": "Rp 20.000/bulan", "wa": "Saya ingin pesan Prime Video", "gambar": "prime.png" },
     { "nama": "Canva Pro", "harga": "Rp 7.000/bulan", "wa": "Saya ingin pesan Canva Pro", "gambar": "canva.png" },
-    { "nama": "Vidio Premier", "harga": "Rp 15.000/bulan", "wa": "Saya ingin pesan Vidio Premier", "gambar": "Vidio.jpg" },
+    { "nama": "Vidio Premier", "harga": "Rp 15.000/bulan", "wa": "Saya ingin pesan Vidio Premier", "gambar": "vidio.png" },
     { "nama": "WeTV", "harga": "Rp 15.000/bulan", "wa": "Saya ingin pesan WeTV Premium", "gambar": "wetv.jpg" }
   ],
 
