@@ -9,12 +9,12 @@
     { "nama": "Prime Video", "harga": "Rp 20.000/bulan", "wa": "Saya ingin pesan Prime Video", "gambar": "prime.png" },
     { "nama": "Canva Pro", "harga": "Rp 7.000/bulan", "wa": "Saya ingin pesan Canva Pro", "gambar": "canva.png" },
     { "nama": "Vidio Premier", "harga": "Rp 15.000/bulan", "wa": "Saya ingin pesan Vidio Premier", "gambar": "vidio.png" },
-    { "nama": "WeTV", "harga": "Rp 15.000/bulan", "wa": "Saya ingin pesan WeTV Premium", "gambar": "wetv.jpg" }
+    { "nama": "WeTV", "harga": "Rp 15.000/bulan", "wa": "Saya ingin pesan WeTV Premium", "gambar": "wetv.png" }
   ],
 
   "layanan": [
-    { "nama": "Desain Logo", "harga": "Mulai Rp 40.000", "wa": "Saya ingin pesan Desain Logo", "gambar": "Website.jpg" },
-    { "nama": "Pembuatan Website", "harga": "Mulai Rp 150.000", "wa": "Saya ingin pesan Pembuatan Website", "gambar": "design.jpg" },
+    { "nama": "Desain Logo", "harga": "Mulai Rp 40.000", "wa": "Saya ingin pesan Desain Logo", "gambar": "logodis.png" },
+    { "nama": "Pembuatan Website", "harga": "Mulai Rp 150.000", "wa": "Saya ingin pesan Pembuatan Website", "gambar": "web.jpg" },
     { "nama": "Desain Grafis", "harga": "Mulai Rp 65.000", "wa": "Saya ingin pesan Desain Grafis", "gambar": "desain.jpg" }
   ]
 }
